@@ -10,6 +10,33 @@
 Aegis-Gemma is an offline AI agent that uses a locally-trained LSTM to forecast heatwaves and Gemma 4's agentic reasoning to deliver life-saving advice — no internet required.
 
 ---
+## 🎥 Demo Video
+[Watch the 3-minute demo on YouTube](#) ← replace with your YouTube link after recording
+
+## ⚡ Quick Start (For Judges)
+
+**Requirements:** 16GB RAM, Windows/Mac/Linux, Python 3.10+
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/tarun-rai21/aegis-gemma.git
+cd aegis-gemma
+
+# 2. Install Ollama from https://ollama.com and pull Gemma 4
+ollama pull gemma4:e4b
+
+# 3. Set up Python environment
+python -m venv venv
+venv\Scripts\activate  # Windows
+pip install -r requirements.txt
+
+# 4. Run the app
+streamlit run app.py
+```
+
+> **Offline demo:** Turn on Airplane Mode after setup — the app switches to offline mode automatically using cached weather data and local Gemma 4.
+
+---
 
 ## 🏗️ Architecture
 
