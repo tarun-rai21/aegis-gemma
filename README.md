@@ -11,7 +11,7 @@ Aegis-Gemma is an offline AI agent that uses a locally-trained LSTM to forecast 
 
 ---
 ## 🎥 Demo Video
-[Watch the 3-minute demo on YouTube](#)
+[Watch the 3-minute demo on YouTube](https://youtu.be/WCnd9phrgSU)
 
 ## ⚡ Quick Start (For Judges)
 
